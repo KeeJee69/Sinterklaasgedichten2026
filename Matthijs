@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sinterklaasgedicht</title>
+  <style>
+    :root {
+      --bg: #f8f5ef;
+      --card: #ffffff;
+      --ink: #1f2421;
+      --muted: #5c6660;
+      --accent: #9e2a2b;
+      --border: #e5dfd3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 1.5rem 1rem 3rem;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 38rem;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    }
+
+    .label {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      margin: 0 0 1.5rem;
+      font-size: 1.65rem;
+      line-height: 1.25;
+    }
+
+    .strofe {
+      margin: 0 0 1.35rem;
+      white-space: pre-line;
+      font-size: 1.05rem;
+    }
+
+    .strofe:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 600px) {
+      body {
+        padding-top: 3rem;
+      }
+
+      main {
+        padding: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="label">Sinterklaas</span>
+    <h1>Voor jou</h1>
+
+    <p class="strofe">De Sint keek in zijn grote boek,
+en zocht niet ver of in een hoek.
+Een kleine tag op dit pakket,
+heeft jou op dit spoor gezet.</p>
+
+    <p class="strofe">Geen papier op schoot en geen gevouw,
+gewoon een scan speciaal voor jou.
+Pak rustig uit, lees dit met zorg,
+en weet: het beste komt nog.</p>
+
+    <p class="strofe">Veel plezier met je cadeau!
+Groetjes van Sint &amp; Piet</p>
+  </main>
+</body>
+</html>
